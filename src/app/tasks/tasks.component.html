@@ -1,0 +1,41 @@
+<div class="container">
+    <button *ngIf="authService.hasPrivilege('CanCreateTask')" mat-raised-button color="primary" (click)="openAddDialog()">
+        <mat-icon aria-label="Add new task">add</mat-icon>
+        Add
+    </button>
+    <br/><br/>
+    <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+    
+        <!-- Title Column -->
+        <ng-container matColumnDef="title">
+            <th mat-header-cell *matHeaderCellDef>Title</th>
+            <td mat-cell *matCellDef="let element"> {{element.title}} </td>
+        </ng-container>
+    
+        <!-- Description Column -->
+        <ng-container matColumnDef="description">
+            <th mat-header-cell *matHeaderCellDef>Description</th>
+            <td mat-cell *matCellDef="let element"> {{element.description}} </td>
+        </ng-container>
+
+        <!-- status Column -->
+        <ng-container matColumnDef="status">
+            <th mat-header-cell *matHeaderCellDef>Status</th>
+            <td mat-cell *matCellDef="let element"> {{displayStatus(element.status)}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="actions">
+            <th mat-header-cell *matHeaderCellDef>Actions</th>
+            <td class="action" mat-cell *matCellDef="let element">
+                <mat-icon (click)="openChangeStatusDialog(element)" aria-label="Change status">build</mat-icon>
+                &nbsp;
+                <mat-icon *ngIf="authService.hasPrivilege('CanDeleteTask')" (click)="openDeleteDialog(element)" aria-label="Delete task">delete</mat-icon>
+            </td>
+        </ng-container>
+    
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;">
+        </tr>
+    
+    </table>
+</div>

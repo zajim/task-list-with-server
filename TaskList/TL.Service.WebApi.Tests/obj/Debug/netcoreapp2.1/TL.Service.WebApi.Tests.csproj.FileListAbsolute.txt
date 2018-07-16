@@ -1,0 +1,9 @@
+E:\TaskList\TL.Service.WebApi.Tests\bin\Debug\netcoreapp2.1\TL.Service.WebApi.Tests.deps.json
+E:\TaskList\TL.Service.WebApi.Tests\bin\Debug\netcoreapp2.1\TL.Service.WebApi.Tests.dll
+E:\TaskList\TL.Service.WebApi.Tests\bin\Debug\netcoreapp2.1\TL.Service.WebApi.Tests.pdb
+E:\TaskList\TL.Service.WebApi.Tests\obj\Debug\netcoreapp2.1\TL.Service.WebApi.Tests.csprojAssemblyReference.cache
+E:\TaskList\TL.Service.WebApi.Tests\obj\Debug\netcoreapp2.1\TL.Service.WebApi.Tests.csproj.CoreCompileInputs.cache
+E:\TaskList\TL.Service.WebApi.Tests\obj\Debug\netcoreapp2.1\TL.Service.WebApi.Tests.AssemblyInfoInputs.cache
+E:\TaskList\TL.Service.WebApi.Tests\obj\Debug\netcoreapp2.1\TL.Service.WebApi.Tests.AssemblyInfo.cs
+E:\TaskList\TL.Service.WebApi.Tests\obj\Debug\netcoreapp2.1\TL.Service.WebApi.Tests.dll
+E:\TaskList\TL.Service.WebApi.Tests\obj\Debug\netcoreapp2.1\TL.Service.WebApi.Tests.pdb

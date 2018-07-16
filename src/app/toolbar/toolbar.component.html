@@ -1,0 +1,18 @@
+<mat-toolbar color="primary" *ngIf="isLoggedIn">
+  <mat-toolbar-row>
+    <mat-nav-list *ngIf="authService.hasRole('admin')">
+      <a mat-menu-item routerLinkActive="active-link" [routerLink]="['/admin']">
+        <i class="fal fa-tachometer-alt menu-icon"></i> Admin</a>
+    </mat-nav-list>
+    <span class="spacer"></span>
+    <mat-nav-list *ngIf="authService.hasPrivilege('CanVisitTaskListPage')">
+      <a mat-menu-item routerLinkActive="active-link" [routerLink]="['/tasks']">
+        <i class="fal fa-tachometer-alt menu-icon"></i> Tasks</a>
+    </mat-nav-list>
+    <span class="spacer"></span>
+    <mat-nav-list *ngIf="isLoggedIn">
+      <a class="logout-link-item" mat-menu-item (click)="onLogout()">
+        <i class="fal fa-tachometer-alt menu-icon"></i> Logout</a>
+    </mat-nav-list>
+  </mat-toolbar-row>
+</mat-toolbar>

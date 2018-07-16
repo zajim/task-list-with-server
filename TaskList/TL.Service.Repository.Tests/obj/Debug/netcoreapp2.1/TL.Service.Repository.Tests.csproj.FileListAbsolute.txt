@@ -1,0 +1,9 @@
+E:\TaskList\TL.Service.Repository.Tests\bin\Debug\netcoreapp2.1\TL.Service.Repository.Tests.deps.json
+E:\TaskList\TL.Service.Repository.Tests\bin\Debug\netcoreapp2.1\TL.Service.Repository.Tests.dll
+E:\TaskList\TL.Service.Repository.Tests\bin\Debug\netcoreapp2.1\TL.Service.Repository.Tests.pdb
+E:\TaskList\TL.Service.Repository.Tests\obj\Debug\netcoreapp2.1\TL.Service.Repository.Tests.csprojAssemblyReference.cache
+E:\TaskList\TL.Service.Repository.Tests\obj\Debug\netcoreapp2.1\TL.Service.Repository.Tests.csproj.CoreCompileInputs.cache
+E:\TaskList\TL.Service.Repository.Tests\obj\Debug\netcoreapp2.1\TL.Service.Repository.Tests.AssemblyInfoInputs.cache
+E:\TaskList\TL.Service.Repository.Tests\obj\Debug\netcoreapp2.1\TL.Service.Repository.Tests.AssemblyInfo.cs
+E:\TaskList\TL.Service.Repository.Tests\obj\Debug\netcoreapp2.1\TL.Service.Repository.Tests.dll
+E:\TaskList\TL.Service.Repository.Tests\obj\Debug\netcoreapp2.1\TL.Service.Repository.Tests.pdb

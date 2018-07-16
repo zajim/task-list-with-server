@@ -1,0 +1,9 @@
+.container {
+    padding: 20px;
+}
+table {
+    width: 100%;
+}
+.action {
+    cursor: pointer;
+}

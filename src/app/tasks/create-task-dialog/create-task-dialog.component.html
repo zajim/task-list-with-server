@@ -1,0 +1,17 @@
+<h1 mat-dialog-title>Create new task </h1>
+<form [formGroup]="createTaskForm" novalidate>
+  <div mat-dialog-content>
+    <mat-form-field>
+      <input matInput required placeholder="Title" [formControl]="title"/>
+      <mat-error *ngIf="title.invalid">{{getTitleErrorMessage()}}</mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput required placeholder="Description" [formControl]="description"/>
+      <mat-error *ngIf="description.invalid">{{getDescErrorMessage()}}</mat-error>
+    </mat-form-field>
+  </div>
+  <div mat-dialog-actions>
+    <button mat-button (click)="onCancel()">Cancel</button>
+    <button mat-button [disabled]="createTaskForm.invalid" (click)="onSubmit()" cdkFocusInitial>Submit</button>
+  </div>
+</form>

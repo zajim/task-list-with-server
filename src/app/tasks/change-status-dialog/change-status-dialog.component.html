@@ -1,0 +1,16 @@
+<h1 mat-dialog-title>Change status of task </h1>
+<form novalidate>
+  <div mat-dialog-content>
+    <mat-form-field>
+        <mat-select [(ngModel)]="selectedStatus" name="selectedStatus" placeholder="Task status">
+          <mat-option *ngFor="let status of statuses" [value]="status.value">
+            {{status.name}}
+          </mat-option>
+        </mat-select>
+    </mat-form-field>
+  </div>
+  <div mat-dialog-actions>
+    <button mat-button (click)="onCancel()">Cancel</button>
+    <button mat-button (click)="onSubmit()" cdkFocusInitial>Submit</button>
+  </div>
+</form>

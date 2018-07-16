@@ -1,0 +1,21 @@
+.icon {
+  padding: 0 14px;
+  cursor: pointer;
+}
+  
+.spacer {
+  flex: 0.01 0 auto;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.logout-link-item {
+  cursor: pointer;
+}
